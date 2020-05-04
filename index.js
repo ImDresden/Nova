@@ -23,7 +23,6 @@ setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 }, 280000);
 
-
 const Discord = require("discord.js");
 const discord = require("discord.js");
 const Canvas = require("canvas");
@@ -56,7 +55,6 @@ const path = require("path");
 const fs = require("fs");
 const figlet = require("figlet");
 const superagent = require("superagent");
-
 
 let scope = ["identify", "guilds"];
 
