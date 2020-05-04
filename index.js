@@ -71,8 +71,8 @@ passport.deserializeUser((obj, done) => {
 passport.use(
   new Strategy(
     {
-      clientID: 642061908538687528,
-      clientSecret: process.env.CLI_SECRET,
+      clientID: process.env.CLIENTID,
+      clientSecret: process.env.CLIENT_SECRET,
       callbackURL: `${process.env.URL}/login`,
       scope: scope
     },
